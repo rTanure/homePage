@@ -1,4 +1,4 @@
-body {
+#bodyApp {
     background-color: var(--body-bg-color);
     display: flex;
     color: var(--text-color);
@@ -200,4 +200,38 @@ img.profile-picture {
     border-radius: 100%;
     background-color: rgb(255, 221, 0);
     border: 2px solid var(--text-color);
+}
+
+
+
+
+/* ================================== */
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Merriweather Sans;
+}
+
+
+
+
+/* ================================== */
+
+
+
+
+:root {
+    --aside-size: 450px;
+
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+    --bg-hover: #2a2a35;
 }
