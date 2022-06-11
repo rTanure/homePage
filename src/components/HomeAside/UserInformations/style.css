@@ -1,0 +1,15 @@
+#UserInformations img.profile-picture {
+    width: 150px;
+    border-radius: 100%;
+}
+
+#UserInformations .profile-description {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 14px;
+}
+
+#UserInformations .avatar-border {
+    border: 4px solid green;
+}

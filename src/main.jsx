@@ -1,11 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
+import "./styles/reset.css"
+import "./styles/variables.css"
+import "./styles/general.css"
+import "./styles/list.css"
+import "./styles/scrollbar.css"
+
 import { Route, BrowserRouter, Routes } from "react-router-dom"
 
 // App Routes
 import Home from "./pages/Home"
-import Error_404 from "./pages/Error_404"
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,7 +18,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
         <Routes>
             <Route path="/" element={<Home />}/>
-            <Route path="*" element={<Error_404/>}/>
         </Routes>
     </BrowserRouter>
   </React.StrictMode>

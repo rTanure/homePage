@@ -1,0 +1,15 @@
+.tech-list ul{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tech-list li {
+    cursor: default;
+    font-size: 14px;
+    color: black;
+    background-color: var(--bg-techs);
+    padding: 3px 10px;
+    border-radius: 99999px;
+}

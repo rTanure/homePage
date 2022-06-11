@@ -1,0 +1,79 @@
+body {
+    background-color: var(--body-bg-color);
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+span {
+    font-size: 12px;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+aside, section {
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+aside {
+    width: var(--aside-size);
+}
+
+section {
+    width: calc(100vw - var(--aside-size));
+}
+
+ul {
+    list-style-type: none;
+}
+
+.card {
+    padding: 30px;
+    background-color: var(--bg-cards);
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.394);
+}
+
+a.card:hover {
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.394);
+}
+
+.cards-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+.title-margin {
+    margin-bottom: 24px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.w-50 {
+    width: calc(50% - 15px);
+}
